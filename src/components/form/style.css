@@ -1,0 +1,110 @@
+.div-paiForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 38px 0 0 26px;
+}
+
+.input-desc {
+  color: #868e96;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #f8f9fa;
+  border: solid #f8f9fa;
+  width: 314px;
+  height: 52.8px;
+  border-radius: 8px;
+  padding: 0px, 16px, 0px, 16px;
+  margin: 10px 0 -10px 0;
+}
+
+.input-valores {
+  margin: 0 20px 0 24px;
+  background-color: #f8f9fa;
+  width: 128px;
+  height: 48px;
+  border: solid #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 26px;
+  color: #868e96;
+  /* padding: 0px 16px; */
+}
+
+.p-ex {
+  color: #868e96;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.formulario-main {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 373px;
+  height: 351px;
+  background-color: #ffffff;
+  margin: 39px -250px 0 13px;
+}
+.valores {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.valor label {
+  font-size: 12px;
+  margin: 0 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tipo label {
+  font-size: 12px;
+  margin: 0 0 0 30px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 314px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  background-color: #fd377e;
+  border: solid #fd377e;
+  border-radius: 8px;
+  margin: 20px 0 0 0;
+}
+
+.div-pai-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
